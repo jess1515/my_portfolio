@@ -1,0 +1,175 @@
+.second-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.second-second {
+  width: 100%;
+  height: 1006px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.second-alekseisabulevskii-six-izw-mm-tjkunsplash1 {
+  top: -12px;
+  left: -3px;
+  width: 1920px;
+  height: 1035px;
+  position: absolute;
+}
+.second-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.second-portfolioshape1 {
+  width: 475px;
+  height: 551px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.second-aboutmebutton {
+  top: 445.6173095703125px;
+  left: 809.1388549804688px;
+  width: 537px;
+  height: 90px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.second-text1 {
+  color: rgba(0, 0, 0, 1);
+  width: 537px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Julee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.second-portfolioshape1 {
+  position: absolute; 
+  right: 0; 
+  top: 0; 
+  z-index: 10; 
+}
+
+.second-portfolioshape1 {
+  position: absolute;
+  left: 0; 
+  top: 0; 
+  z-index: 10; 
+}
+
+.second-ellipse8 {
+  top: 65px;
+  left: 50px; 
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.second-arrow1 {
+  top: 80px; 
+  left: 55px; 
+  width: 40px;
+  height: 20px;
+  position: absolute;
+}
+
+.second-aboutmebutton {
+  position: relative; 
+  left: 0; 
+  margin-top: 20px; 
+  cursor: pointer; 
+}
+
+.second-vector {
+  top: 2px;
+  left: -46px;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+}
+.second-img202404261934355561 {
+  top: 7px;
+  left: 841px;
+  width: 490px;
+  height: 750px;
+  position: absolute;
+}
+.second-ellipse5 {
+  top: 800px;
+  right: 60px;
+  width: 120px;
+  height: 80px;
+  position: absolute;
+}
+.second-image2 {
+  top: 520px;
+  left: 35px;
+  width: 463px;
+  height: 29px;
+  position: absolute;
+  object-fit: cover;
+}
+.second-text3 {
+  bottom: 100px;
+  color: rgba(0, 0, 0, 1);
+  right: 70px;
+  width: 99px;
+  height: 80px;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Julee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.second-aboutshape11 {
+  right: 1px;
+  width: 35px;
+  bottom: 3px;
+  height: 30px;
+  position: absolute;
+}
+.second-image3 {
+  top: 10px;
+  left: 406px;
+  width: 500px;
+  height: auto;
+  position: absolute;
+  align-self: center;
+  box-shadow: 1px 2px 10px 5px #bc7171;
+  object-fit: cover;
+  margin-left: 430px;
+}
+.second-image4 {
+  left: 66px;
+  width: 952px;
+  bottom: 100px;
+  height: 247px;
+  position: absolute;
+  object-fit: cover;
+}
+

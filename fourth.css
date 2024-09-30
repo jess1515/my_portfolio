@@ -1,0 +1,320 @@
+.fourth-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.fourth-fourth {
+  width: 100%;
+  height: 1050px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color:rgba(100, 43, 43, 0.671);
+}
+.fourth-ellipse6 {
+  top: 521px;
+  left: 16px;
+  width: 45px;
+  height: 44px;
+  position: absolute;
+}
+.fourth-home {
+  top: 22px;
+  left: 55px;
+  width: 1350px;
+  height: 107px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-right: 433px;
+}
+.fourth-text10 {
+  top: -3px;
+  left: 465px;
+  color: rgba(0, 0, 0, 1);
+  width: 296px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Salsa;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-text12 {
+  top: 21px;
+  color: rgba(0, 0, 0, 1);
+  width: 83px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Italiana;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-text14 {
+  top: 21px;
+  left: 83px;
+  color: rgba(0, 0, 0, 1);
+  width: 83px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Italiana;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-text16 {
+  top: 21px;
+  left: 166px;
+  color: rgba(0, 0, 0, 1);
+  width: 83px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Italiana;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-text18 {
+  top: 13px;
+  color: rgba(0, 0, 0, 1);
+  right: 127px;
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Italiana;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.fourth-text20 {
+  top: 123px;
+  left: 450px;
+  color: rgba(0, 0, 0, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-text22 {
+  top: 137px;
+  left: 470px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 100px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-portfolio71 {
+  top: 200px;
+  left: 13px;
+  width: 250px;
+  height: 280px;
+  position: absolute;
+}
+.fourth-portfolio91 {
+  top: 275px;
+  left: 800px;
+  width: 542px;
+  height: 257px;
+  position: absolute;
+}
+.fourth-portfolio81 {
+  left: 40px;
+  width: 277px;
+  bottom: 20px;
+  height: 351px;
+  position: absolute;
+}
+.fourth-text24 {
+  top: 300px;
+  left: 300px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.fourth-text26 {
+  top: 330px;
+  left: 315px;
+  color: rgba(0, 0, 0, 1);
+  width: 267px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-portfolio101 {
+  left: 780px;
+  width: 469px;
+  bottom: 150px;
+  height: 250px;
+  position: absolute;
+}
+.fourth-text30 {
+  top: 780px;
+  left: 335px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.fourth-text32 {
+  top: 810px;
+  left: 350px;
+  color: rgba(0, 0, 0, 1);
+  width: 278px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-text34 {
+  top: 480px;
+  color: rgba(0, 0, 0, 1);
+  right: 565px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.fourth-text36 {
+  top: 920px;
+  color: rgba(0, 0, 0, 1);
+  right: 330px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.fourth-text38 {
+  color: rgba(0, 0, 0, 1);
+  right: 150px;
+  width: 379px;
+  bottom: 40px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-text40 {
+  top: 510px;
+  color: rgba(0, 0, 0, 1);
+  right: 530px;
+  width: 302px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Sanchez;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-text42 {
+  top: 565px;
+  left: 10px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Julee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fourth-arrowforward1 {
+  top: 530px;
+  left: 22px;
+  width: 35px;
+  height: 25px;
+  position: absolute;
+}

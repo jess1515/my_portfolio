@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            background: var(--dl-color-theme-neutral-light);
+            overflow-x: hidden;
+        }
+
+        .main-container {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: center;
+        }
+
+        .main-background {
+            position: absolute;
+            top: 0;
+            left: -15%;
+            width: 120%;
+            height: 120%;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .main-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            backdrop-filter: blur(10px);
+            background: rgba(204, 103, 103, 0.8); /* Dark pink background */
+            border-radius: 10px;
+            padding: 4px 10px; /* Reduced padding */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Added shadow */
+        }
+
+        .nav-left {
+            display: flex;
+            margin-left: 3%;
+        }
+
+        .nav-left a, .main-home {
+            margin: 0 20%;
+            font-size: 18px; /* Slightly larger font */
+            color: #ffffff; /* White color */
+            transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
+            text-decoration: none; /* Remove underline */
+        }
+
+        .nav-left a:hover,
+        .main-home:hover {
+            transform: translateY(-3px);
+            color: #ffe6e6; /* Light pink on hover */
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        .nav-right {
+            display: flex;
+            margin-left: 70%;
+            
+}
+
+        .nav-right span {
+            margin: 0 20px;
+            font-size: 18px;
+            color: #ffffff;
+            transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
+        }
+
+
+        .nav-right span:hover {
+            transform: translateY(-3px);
+            color: #ffe6e6;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        /* .main-introduction {
+            margin-left: 60%;
+            margin: 0 0 10px;
+            font-size: 50px;
+            color: rgb(18, 7, 7);
+            font-weight: bold; 
+            font-family: 'Brush Script MT', 'Cursive', Arial, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, color 0.3s ease;
+        } */
+
+        .main-introduction {
+            margin: 80px 0 10px;
+            bottom: 100%;
+            font-size: 50px;
+            color: rgb(18, 7, 7);
+            width: 100%;
+            font-weight: bold; 
+            font-family: 'Brush Script MT', 'Cursive', Arial, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, color 0.3s ease;
+            position: relative;
+        }
+
+        .main-introduction:hover {
+            color: rgb(24, 11, 11); 
+            transform: scale(1.1) rotate(-2deg); 
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .main-text10 {
+            font-size: 90px;
+            position: absolute; /* Keep it absolute to control its positioning */
+            top: 50%; /* Adjust this value as needed to fit within the banner */
+            right: 40%; /* Position it on the right side */
+            transform: translateX(50%); /* Adjust if you want to fine-tune the alignment */
+        }
+
+        .main-text11 {
+            font-size: 40px; /* Adjust font size as needed */
+            position: absolute; /* Keep it absolute to control its positioning */
+            top: calc(49% + 10px); /* Adjust this value to position it below main-text10 */
+            right: 31%; /* Keep it aligned to the right */
+            transform: translateX(50%); /* Fine-tune the alignment */
+        }
+
+        .main-text11:hover {
+            color: rgb(24, 11, 11); 
+            transform: scale(1.1) rotate(-2deg); 
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+
+        .main-text12 {
+            font-size: 40px; 
+            color: rgb(119, 16, 16);
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+            transition: transform 0.3s ease, color 0.3s ease; 
+            position: absolute; 
+            top: 205px; 
+            left: 65%; 
+            transform: translate(-50%, -50%); 
+        }
+
+        .main-text12:hover {
+            transform: scale(1.1);
+            color: rgb(146, 79, 79); 
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+        }
+
+        .main-text23 {
+            display: flex;
+            justify-content: center;
+            top: 120px;
+            position: absolute; 
+            left: 36%;
+        }
+
+        .main-main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .main-aboutbanner1 {
+            max-width: 50%;
+            height: auto;
+            margin-right: 50px;
+            backdrop-filter: blur(5px);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* .main-image1 {
+            max-width: 40%;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, filter 0.3s ease; 
+        }
+
+        .main-image1:hover {
+            transform: scale(1.05) rotate(3deg); 
+            filter: brightness(1.1); 
+        } */
+
+        .main-image2 {
+            position: absolute; /* Position it absolutely within the relative parent */
+            top: 50%; /* Center vertically within the parent */
+            left: 50%; /* Center horizontally within the parent */
+            transform: translate(-50%, -50%); /* Offset by its own dimensions */
+            max-width: 100%; /* Ensure it fits within the parent */
+            opacity: 0.9;
+            transition: transform 0.3s ease, opacity 0.3s ease; 
+            box-shadow: 0 0 50px rgba(115, 33, 22, 0.8); 
+        }
+
+        .main-image2:hover {
+            transform: translate(-50%, -50%) scale(1.1) rotate(-3deg); 
+            opacity: 1; 
+        }
+
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.02);
+            }
+        }
+
+        .main-image1,
+        .main-image2 {
+            animation: pulse 3s infinite; 
+        }
+
+        .main-aboutmebutton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 20px;
+            top: 80%; /* Increase this to push it lower */
+            left: 80%;
+            position: absolute;
+        }
+
+        .main-arrow1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 20px;
+            top: 25%; /* Increase this to push it lower */
+            left: 28%;
+            position: absolute;
+        }
+
+        .main-socials {
+            display: flex;
+            justify-content: center;
+            top: 750px;
+            position: absolute; 
+            left: 22%;
+        }
+
+        .main-socials img {
+            margin: 0 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .main-about,
+        .main-portfolio {
+            color: rgb(255, 255, 255);
+            text-decoration: none; 
+        }
+
+        .main-about:hover,
+        .main-portfolio:hover {
+            text-decoration: none;
+            color: #ffe6e6; /* Light pink on hover */
+        }
+
+        @media (max-width: 1200px) {
+            .main-image1 {
+                max-width: 70%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .main-navigation {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .nav-left span {
+                margin: 10px 0;
+            }
+            .main-introduction {
+                font-size: 20px;
+            }
+            .main-socials img {
+                width: 25px;
+                height: 25px;
+            }
+            .main-main {
+                flex-direction: column;
+                align-items: center;
+            }
+            .main-image1 {
+                max-width: 90%;
+            }
+            .main-aboutbanner1 {
+                max-width: 80%;
+            }
+            .main-aboutmebutton {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <img alt="Background" src="public/external/pink.jpg" class="main-background" />
+        
+        <div class="main-navigation">
+            <div class="nav-left">
+                <span class="main-home">Home</span>
+                <a href="second.html" class="main-about">About</a>
+                <a href="third.html" class="main-portfolio">Portfolio</a>
+            </div>
+            <div class="nav-right">
+                <span class="main-download">Download CV</span>
+                <span class="main-logout" onclick="logout()">Log Out</span>
+            </div>
+            <div class="main-socials">
+                <a href="https://www.facebook.com/jollyhotdog201" target="_blank" rel="noreferrer noopener">
+                    <img alt="Facebook" src="public/external/facebook152-8o6k-200h.png" />
+                </a>
+                <a href="https://www.instagram.com/_iscahxx/" target="_blank" rel="noreferrer noopener">
+                    <img alt="Instagram" src="public/external/instagram163-5jv2-200h.png" />
+                </a>
+                <a href="https://x.com/jessiiiee00" target="_blank" rel="noreferrer noopener">
+                    <img alt="Twitter" src="public/external/twitter65-e2xi-200h.png" />
+                </a>
+                <a href="https://t.me/iscahhh0" target="_blank" rel="noreferrer noopener">
+                    <img alt="Telegram" src="public/external/telegram64-c9fp-200h.png" />
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="main-introduction">
+            <span class="main-text10">Hey there!</span>
+        </div>
+            <img class ="main-text11" src="public/external/aâ bsit student in davao del norte state collegeâ who is eager toâ learn and growâ in the world of tech.-200h.png" class="main-image2" />
+            <span class="main-text12">Iam Jessica</span>
+        <div class="main-main">
+            <div class="main-aboutbanner1">
+                <img alt="About Banner" src="public/external/aboutbanner1218-6b3i-500w.png" />
+            </div>
+            <div class="main-image1">
+                <img alt="Main Image" src="public/external/ellipse 4-800w.png" />
+            </div>
+            <div class="main-aboutmebutton">
+                <span class="main-text23">About me</span>
+                <img alt="Arrow" src="public/external/arrow1230-0205.svg" class="main-arrow1"  />
+                <a href="second.html" src="public/external/arrow1230-0205.svg">
+                <img src="public/external/ellipse51032-qir-200h.png"  target="_blank" rel="noreferrer noopener"></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function logout() {
+            alert("You have been logged out.");
+            window.location.href = 'http://127.0.0.1:5500/index.html';
+        }
+    </script>
+</body>
+</html>
